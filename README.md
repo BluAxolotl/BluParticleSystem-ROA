@@ -1,6 +1,6 @@
 # BluParticleSystem - ROA
 
-## 🔹 Getting Started 🔹
+## Getting Started
 
 Spawning particles can be done in only two lines!
 
@@ -21,7 +21,7 @@ bps_remove_particle(particle_2)
 bps_remove_group("particle_group")
 ```
 
-## 🔹 Function🔹
+## Function
 
 ### `bps_make( group, sprite )`
 
@@ -52,16 +52,31 @@ bps_remove_group("particle_group")
 
 ### `bps_remove_group( group )`
 
-## 🔹 Indexes🔹
+## Indexes
 
-| Index | Type | Desctiption |
-| --- | --- | --- |
-| BPS_PT_WEIGHT | Real | •How fast the particle will fall
-
+| Index | Enumerator | Type | Default Value | Desctiption |
+| --- | --- | --- | --- | --- |
+| 0 | BPS_PT_WEIGHT | Real | 0.1 | •How fast the particle will fall
 •Setting to a negative will cause particles to rise 
-
 •Setting to 0 will cause particles to not be affected by gravity and float and a linear path |
-|  |  |  |
+| 1 | BPS_PT_AMOUNT | Real | 3 | •Number of particles to spawn with called with bps_spawn |
+| 2 | BPS_PT_MIN_ANGLE | Real | -45 | •Minimum angle that particle can spawn with
+•Angle decides velocity of particle and sprite angle if angle_type = BPS_AT_FOLLOW
+•Setting equal to max_angle will ensure particle will be the same angle each time |
+| 3 | BPS_PT_MAX_ANGLE | Real | 45 | •Maximum angle that particle can spawn with
+•Angle decides velocity of particle and sprite angle if angle_type = BPS_AT_FOLLOW
+•Setting equal to min_angle will ensure particle will be the same angle each time |
+| 4 | BPS_PT_ANGLE_TYPE | Real | 0 | This function has constants that it works with (defined with the init.gml block you pasted in)
+• (-1) BPS_AT_STILL⇒ Particle will not rotate at all
+• (0) BPS_AT_FOLLOW ⇒ Particle sprite angle will change depending on velocity of sprite
+• (1) BPS_AT_SPIN ⇒ Particle will spin at the speed set by BPS_PT_AT_SPIN_SPEED |
+| 5 | BPS_PT_AT_SPIN_SPEED | Real | 10 | • Speed at which particle spins
+• Only works after BPS_PT_ANGLE_TYPE = BPS_AT_SPIN (1) |
+| 6 |  |  |  |  |
+| 7 |  |  |  |  |
+| 8 |  |  |  |  |
+| 9 |  |  |  |  |
+| 10 |  |  |  |  |
 
 ---
 
