@@ -1,9 +1,9 @@
 # BluParticleSystem - ROA
 
 # Overview
-- [**Installation 📥**](#installation-)
-- [**Functions ⚙**](#functions-)
-- [**Particle Indexes 🔎**](#indexes-)
+### [**Installation 📥**](#installation-)
+### [**Functions ⚙**](#functions-)
+### [**Particle Indexes 🔎**](#indexes-)
 
 ## Getting Started 🚩
 
