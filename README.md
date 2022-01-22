@@ -1,5 +1,10 @@
 # BluParticleSystem - ROA
 
+# Overview
+- [**Installation 📥**](#installation-)
+- [**Functions ⚙**](#functions-)
+- [**Particle Indexes 🔎**](#indexes-)
+
 ## Getting Started 🚩
 
 Spawning particles can be done in only two lines!
@@ -36,7 +41,7 @@ bps_remove_group("particle_group")
 
 ---
 
-## Function ⚙
+## Functions ⚙
 
 ### `bps_make( group, sprite )`
 
@@ -59,7 +64,7 @@ bps_remove_group("particle_group")
 - `value [ Any ]`
     - Value to set the index to
     - This can be different depending on the index
-    - Check out the `Indexes` section for more info
+    - Check out the [`Indexes`](#indexes-) section for more info
 
 ### `bps_spawn( group, x, y, front, dir )`
 
