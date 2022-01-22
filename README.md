@@ -34,6 +34,8 @@ bps_remove_particle(particle_2)
 bps_remove_group("particle_group")
 ```
 
+---
+
 ## Function ⚙
 
 ### `bps_make( group, sprite )`
@@ -65,6 +67,8 @@ bps_remove_group("particle_group")
 
 ### `bps_remove_group( group )`
 
+---
+
 ## Indexes 🔎
 
 |  | Index | Type | Default Value | Desctiption |
@@ -74,12 +78,13 @@ bps_remove_group("particle_group")
 | 2 | BPS_PT_MIN_ANGLE | Real | -45 | Minimum angle that particle can spawn with. Angle decides velocity of particle and sprite angle if angle_type = BPS_AT_FOLLOW.Setting equal to max_angle will ensure particle will be the same angle each time |
 | 3 | BPS_PT_MAX_ANGLE | Real | 45 | Maximum angle that particle can spawn with. Angle decides velocity of particle and sprite angle if angle_type = BPS_AT_FOLLOW. Setting equal to min_angle will ensure particle will be the same angle each time |
 | 4 | BPS_PT_ANGLE_TYPE | Real | 0 | This function has constants that it works with (defined with the init.gml block you pasted in). Angle Types are defined in the Angle Types section |
-| 5 | BPS_PT_AT_SPIN_SPEED | Real | 10 | • Speed at which particle spins
-• Only works after BPS_PT_ANGLE_TYPE = BPS_AT_SPIN (1) |
+| 5 | BPS_PT_AT_SPIN_SPEED | Real | 10 | Speed at which particle spins. Only works after BPS_PT_ANGLE_TYPE = BPS_AT_SPIN (1) |
 | 6 | BPS_PT_MIN_SPEED | Real | 4 | The minimum amount of speed a particle can spawn. Setting the same as BPS_PT_MAX_SPEED will make the particle spawn at the same speed |
 | 7 | BPS_PT_MAX_SPEED | Real | 8 | The maximum amount of speed a particle can spawn. Setting the same as BPS_PT_MIN_SPEED will make the particle spawn at the same speed |
 | 8 | BPS_PT_SHADER | Boolean | true | Whether the sprite is affected by the characters current color or not |
 | 9 | BPS_PT_LIFETIME | Real | 100 | The amount frames the particle is drawn |
+
+---
 
 ## Angle Types 📐
 
