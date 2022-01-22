@@ -3,7 +3,7 @@
 # Overview
 ### [**Installation 📥**](#installation--1)
 ### [**Functions ⚙**](#functions--1)
-### [**Particle Indexes 🔎**](#indexes--1)
+### [**Indexes 🔎**](#indexes--1)
 
 ## Getting Started 🚩
 
