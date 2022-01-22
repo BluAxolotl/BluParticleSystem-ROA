@@ -55,7 +55,7 @@ bps_remove_group("particle_group")
     - Particle object returned by `bps_make` function
 - `index [ Real ]`
     - The index of the property to set
-    - The block pasted in `init.gml` defines constants that are easier to remember instead of numbers (listed in the `Indexes` section)
+    - The block pasted in `init.gml` defines constants that are easier to remember instead of numbers (listed in the [`Indexes`](./Indexes) section)
 - `value [ Any ]`
     - Value to set the index to
     - This can be different depending on the index
